@@ -1,4 +1,4 @@
-import { ProfileProps } from 'decentraland-ui'
+import { ProfileProps } from 'telestoworld-ui'
 import {
   loadProfileRequest,
   LoadProfileRequestAction

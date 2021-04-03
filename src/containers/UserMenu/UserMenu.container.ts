@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { Network } from '@dcl/schemas'
+import { Network } from 'tw-schemas'
 import { isPending } from '../../modules/transaction/utils'
 import {
   getAddress,

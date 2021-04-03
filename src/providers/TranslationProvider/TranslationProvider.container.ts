@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { Locale } from 'decentraland-ui'
+import { Locale } from 'telestoworld-ui'
 
 import TranslationProvider from './TranslationProvider'
 import {

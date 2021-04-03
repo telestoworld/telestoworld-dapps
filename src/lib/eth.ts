@@ -1,5 +1,5 @@
-import { ChainId } from '@dcl/schemas'
-import { connection, ProviderType, Provider } from 'decentraland-connect'
+import { ChainId } from 'tw-schemas'
+import { connection, ProviderType, Provider } from 'telestoworld-connect'
 import { isMobile } from './utils'
 
 export type EthereumWindow = Window & {

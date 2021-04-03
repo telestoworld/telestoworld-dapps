@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Profile as BaseProfile } from 'decentraland-ui'
+import { Profile as BaseProfile } from 'telestoworld-ui'
 import { Props } from './Profile.types'
 
 export default class Profile extends React.PureComponent<Props> {

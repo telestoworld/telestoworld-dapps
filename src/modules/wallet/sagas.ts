@@ -9,8 +9,8 @@ import {
   delay,
   select
 } from 'redux-saga/effects'
-import { ChainId } from '@dcl/schemas'
-import { connection } from 'decentraland-connect'
+import { ChainId } from 'tw-schemas'
+import { connection } from 'telestoworld-connect'
 import { isCucumberProvider, isValidChainId } from '../../lib/eth'
 import {
   connectWalletSuccess,

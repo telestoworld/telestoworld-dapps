@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { Locale } from 'decentraland-ui'
+import { Locale } from 'telestoworld-ui'
 
 import Footer from './Footer'
 import { FooterProps, MapDispatchProps, MapStateProps } from './Footer.types'

@@ -1,4 +1,4 @@
-import { ModalProps as ModalComponentProps } from 'decentraland-ui'
+import { ModalProps as ModalComponentProps } from 'telestoworld-ui'
 
 import { closeModal } from '../../modules/modal/actions'
 

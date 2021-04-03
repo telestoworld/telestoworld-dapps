@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { UserMenuProps } from 'decentraland-ui'
+import { UserMenuProps } from 'telestoworld-ui'
 import {
   ConnectWalletRequestAction,
   DisconnectWalletAction

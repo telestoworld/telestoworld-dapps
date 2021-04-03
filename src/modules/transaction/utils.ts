@@ -1,5 +1,5 @@
 import { AnyAction } from 'redux'
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from 'tw-schemas'
 import {
   Transaction,
   TransactionPayload,

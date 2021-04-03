@@ -1,7 +1,7 @@
 import { Eth } from 'web3x-es/eth'
 import { Address } from 'web3x-es/address'
 import { fromWei } from 'web3x-es/utils'
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from 'tw-schemas'
 import { getConnectedProvider, getConnectedProviderType } from '../../lib/eth'
 import { graphql } from '../../lib/graph'
 import { getChainConfiguration } from '../../lib/chainConfiguration'

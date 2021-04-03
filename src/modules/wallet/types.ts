@@ -1,5 +1,5 @@
-import { ChainId, Network } from '@dcl/schemas'
-import { Provider, ProviderType } from 'decentraland-connect'
+import { ChainId, Network } from 'tw-schemas'
+import { Provider, ProviderType } from 'telestoworld-connect'
 
 export { Provider, ProviderType }
 

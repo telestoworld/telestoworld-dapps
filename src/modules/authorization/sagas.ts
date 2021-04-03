@@ -1,13 +1,13 @@
 import { Eth } from 'web3x-es/eth'
 import { Address } from 'web3x-es/address'
 import { put, call, takeEvery } from 'redux-saga/effects'
-import { Network } from '@dcl/schemas'
-import { Provider } from 'decentraland-connect'
+import { Network } from 'tw-schemas'
+import { Provider } from 'telestoworld-connect'
 import {
   getContract,
   getContractName,
   sendMetaTransaction
-} from 'decentraland-transactions'
+} from 'telestoworld-transactions'
 import { getNetworkProvider, getConnectedProvider } from '../../lib/eth'
 import { getChainConfiguration } from '../../lib/chainConfiguration'
 import { ERC20, ERC20TransactionReceipt } from '../../contracts/ERC20'

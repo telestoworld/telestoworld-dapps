@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { LoginModalProps } from 'decentraland-ui'
+import { LoginModalProps } from 'telestoworld-ui'
 import {
   getError,
   isEnabling,

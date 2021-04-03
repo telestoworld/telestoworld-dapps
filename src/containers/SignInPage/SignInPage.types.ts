@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { ProviderType } from 'decentraland-connect'
-import { SignInProps } from 'decentraland-ui'
+import { ProviderType } from 'telestoworld-connect'
+import { SignInProps } from 'telestoworld-ui'
 import { EnableWalletRequestAction } from '../../modules/wallet/actions'
 
 export type SignInPageProps = Omit<SignInProps, 'onConnect'> & {

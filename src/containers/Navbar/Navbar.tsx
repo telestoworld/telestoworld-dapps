@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { Navbar as NavbarComponent, NavbarI18N } from 'decentraland-ui'
+import { Navbar as NavbarComponent, NavbarI18N } from 'telestoworld-ui'
 
 import { NavbarProps } from './Navbar.types'
 import { T } from '../../modules/translation/utils'

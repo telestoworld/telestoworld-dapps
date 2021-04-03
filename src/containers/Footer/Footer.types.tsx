@@ -1,4 +1,4 @@
-import { FooterProps as FooterComponentProps } from 'decentraland-ui'
+import { FooterProps as FooterComponentProps } from 'telestoworld-ui'
 
 export type FooterProps = FooterComponentProps & {
   hasTranslations?: boolean

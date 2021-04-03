@@ -4,8 +4,8 @@ import {
   LoginModalI18N,
   LoginModalOptionI18N,
   LoginModalOptionType
-} from 'decentraland-ui'
-import { ProviderType, connection } from 'decentraland-connect'
+} from 'telestoworld-ui'
+import { ProviderType, connection } from 'telestoworld-connect'
 import { T } from '../../modules/translation/utils'
 import { isCucumberProvider, isDapperProvider } from '../../lib/eth'
 import { DefaultProps, Props, State } from './LoginModal.types'

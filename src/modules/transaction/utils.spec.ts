@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from 'tw-schemas'
 import {
   TRANSACTION_ACTION_FLAG,
   buildTransactionPayload,

@@ -1,7 +1,7 @@
 import { Eth } from 'web3x-es/eth'
 import { TransactionResponse } from 'web3x-es/formatters'
 import { Address } from 'web3x-es/address'
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from 'tw-schemas'
 import { getNetworkProvider } from '../../lib/eth'
 import {
   ReplacedTransaction,

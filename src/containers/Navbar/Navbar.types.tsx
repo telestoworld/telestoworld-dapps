@@ -1,4 +1,4 @@
-import { NavbarProps as NavbarComponentProps } from 'decentraland-ui'
+import { NavbarProps as NavbarComponentProps } from 'telestoworld-ui'
 
 export type NavbarProps = NavbarComponentProps & {
   hasTranslations?: boolean

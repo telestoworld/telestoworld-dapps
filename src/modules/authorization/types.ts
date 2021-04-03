@@ -1,4 +1,4 @@
-import { ChainId } from '@dcl/schemas'
+import { ChainId } from 'tw-schemas'
 
 export enum AuthorizationType {
   ALLOWANCE = 'allowance',

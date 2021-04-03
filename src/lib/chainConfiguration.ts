@@ -1,19 +1,19 @@
-import { ChainId, Network } from '@dcl/schemas'
-import { RPC_URLS } from 'decentraland-connect'
+import { ChainId, Network } from 'tw-schemas'
+import { RPC_URLS } from 'telestoworld-connect'
 
 export const MANA_GRAPH_BY_CHAIN_ID = {
   [ChainId.ETHEREUM_MAINNET]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-ethereum-mainnet',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-mainnet',
   [ChainId.ETHEREUM_ROPSTEN]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-ethereum-ropsten',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-ropsten',
   [ChainId.ETHEREUM_GOERLI]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-ethereum-goerli',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-goerli',
   [ChainId.ETHEREUM_RINKEBY]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-ethereum-rinkeby',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-rinkeby',
   [ChainId.MATIC_MAINNET]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-matic-mainnet',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-matic-mainnet',
   [ChainId.MATIC_MUMBAI]:
-    'https://api.thegraph.com/subgraphs/name/decentraland/mana-matic-mumbai'
+    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-matic-mumbai'
 }
 
 const NETWORK_MAPPING_BY_CHAIN_ID = {

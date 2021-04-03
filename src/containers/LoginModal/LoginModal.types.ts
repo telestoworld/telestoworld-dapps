@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { LoginModalProps } from 'decentraland-ui'
-import { ProviderType } from 'decentraland-connect'
+import { LoginModalProps } from 'telestoworld-ui'
+import { ProviderType } from 'telestoworld-connect'
 import { EnableWalletRequestAction } from '../../modules/wallet/actions'
 
 export type DefaultProps = { isLoading: boolean }

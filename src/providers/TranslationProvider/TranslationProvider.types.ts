@@ -1,4 +1,4 @@
-import { Locale } from 'decentraland-ui'
+import { Locale } from 'telestoworld-ui'
 
 import { fetchTranslationsRequest } from '../../modules/translation/actions'
 import { TranslationKeys } from '../../modules/translation/types'
