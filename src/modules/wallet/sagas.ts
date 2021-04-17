@@ -157,9 +157,9 @@ function* handleConnectWalletSuccess() {
 
 export function createWalletSaga(options?: CreateWalletOptions) {
   if (options) {
-    if (options.MANA_ADDRESS) {
+    if (options.TELO_ADDRESS) {
       console.warn(
-        'Deprecated notice: the MANA_ADDRESS option on `createWalletSaga` has been deprecated and will be removed in future version.'
+        'Deprecated notice: the TELO_ADDRESS option on `createWalletSaga` has been deprecated and will be removed in future version.'
       )
     }
 

@@ -18,7 +18,7 @@ export interface Wallet {
 }
 
 export interface CreateWalletOptions {
-  MANA_ADDRESS?: string
+  TELO_ADDRESS?: string
   CHAIN_ID?: string | number
   POLL_INTERVAL?: number
 }

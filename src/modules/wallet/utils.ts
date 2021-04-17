@@ -60,7 +60,7 @@ export async function buildWallet(): Promise<Wallet> {
     networks[network] = {
       chainId: networkChainId,
       mana: await fetchManaBalance(
-        networkConfiguration.manaGraphURL,
+        networkConfiguration.teloGraphURL,
         address.toString()
       )
     }

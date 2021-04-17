@@ -1,6 +1,6 @@
 <img src="https://ui.telestoworld.org/telestoworld_256x256.png" height="128" width="128" />
 
-# Decentraland dApps
+# DecentraSPACE dApps
 
 Common modules for our dApps
 
@@ -862,8 +862,8 @@ export function* rootSaga() {
 You can use the same redux action type to generate different Segment events if you pass a function as the second parameter instead of a string:
 
 ```ts
-add(AUTHORIZE_LAND_SUCCESS, action =>
-  action.isAuthorized ? 'Authorize LAND' : 'Unauthorize LAND'
+add(AUTHORIZE_SPACE_SUCCESS, action =>
+  action.isAuthorized ? 'Authorize SPACE' : 'Unauthorize SPACE'
 )
 ```
 

@@ -1,19 +1,19 @@
 import { ChainId, Network } from 'tw-schemas'
 import { RPC_URLS } from 'telestoworld-connect'
 
-export const MANA_GRAPH_BY_CHAIN_ID = {
+export const TELO_GRAPH_BY_CHAIN_ID = {
   [ChainId.ETHEREUM_MAINNET]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-mainnet',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-ethereum-mainnet',
   [ChainId.ETHEREUM_ROPSTEN]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-ropsten',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-ethereum-ropsten',
   [ChainId.ETHEREUM_GOERLI]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-goerli',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-ethereum-goerli',
   [ChainId.ETHEREUM_RINKEBY]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-ethereum-rinkeby',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-ethereum-rinkeby',
   [ChainId.MATIC_MAINNET]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-matic-mainnet',
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-matic-mainnet',
   [ChainId.MATIC_MUMBAI]:
-    'https://api.thegraph.com/subgraphs/name/telestoworld/mana-matic-mumbai'
+    'https://api.thegraph.com/subgraphs/name/telestoworld/telo-matic-mumbai'
 }
 
 const NETWORK_MAPPING_BY_CHAIN_ID = {
@@ -55,7 +55,7 @@ const NETWORK_BY_CHAIN_ID: Record<ChainId, Network> = {
 
 type ChainConfiguration = {
   network: Network
-  manaGraphURL: string
+  teloGraphURL: string
   rpcURL: string
   networkMapping: Record<Network, ChainId>
 }
@@ -63,7 +63,7 @@ type ChainConfiguration = {
 export function getChainConfiguration(chainId: ChainId): ChainConfiguration {
   return {
     network: NETWORK_BY_CHAIN_ID[chainId],
-    manaGraphURL: MANA_GRAPH_BY_CHAIN_ID[chainId],
+    teloGraphURL: TELO_GRAPH_BY_CHAIN_ID[chainId],
     rpcURL: RPC_URLS[chainId],
     networkMapping: NETWORK_MAPPING_BY_CHAIN_ID[chainId]
   }
